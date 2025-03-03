@@ -35,6 +35,10 @@ export default function Home() {
             priority
           />
           <ol>
+            <li> Teste de prettier</li> <li>mais um teste </li>{" "}
+            <li> Teste de prettier</li> <li>maais um teste </li>{" "}
+            <li> Teste de prettier</li> <li>maais um teste </li>{" "}
+            <li> Teste de prettier</li> <li>maais um teste </li>
             <li>
               Get started by editing <code>pages/index.js</code>.
             </li>
