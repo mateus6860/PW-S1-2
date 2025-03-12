@@ -39,6 +39,8 @@ export default function Home() {
             <li> Teste de prettier</li> <li>maais um teste </li>{" "}
             <li> Teste de prettier</li> <li>maais um teste </li>{" "}
             <li> Teste de prettier</li> <li>maais um teste </li>
+            <li> Teste de prettier</li> <li>maais um teste </li>
+            <li> ttttt de prettier</li> <li>maais um teste </li>
             <li>
               Get started by editing <code>pages/index.js</code>.
             </li>
