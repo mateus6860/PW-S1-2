@@ -1,17 +1,17 @@
-import Head from "next/head";
-import Image from "next/image";
-import { Geist, Geist_Mono } from "next/font/google";
-import styles from "@/styles/Home.module.css";
+import Head from 'next/head'
+import Image from 'next/image'
+import { Geist, Geist_Mono } from 'next/font/google'
+import styles from '@/styles/Home.module.css'
 
 const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+  variable: '--font-geist-sans',
+  subsets: ['latin'],
+})
 
 const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+  variable: '--font-geist-mono',
+  subsets: ['latin'],
+})
 
 export default function Home() {
   return (
@@ -35,9 +35,9 @@ export default function Home() {
             priority
           />
           <ol>
-            <li> Teste de prettier</li> <li>mais um teste </li>{" "}
-            <li> Teste de prettier</li> <li>maais um teste </li>{" "}
-            <li> Teste de prettier</li> <li>maais um teste </li>{" "}
+            <li> Teste de prettier</li> <li>mais um teste </li>{' '}
+            <li> Teste de prettier</li> <li>maais um teste </li>{' '}
+            <li> Teste de prettier</li> <li>maais um teste </li>{' '}
             <li> Teste de prettier</li> <li>maais um teste </li>
             <li> Teste de prettier</li> <li>maais um teste </li>
             <li> ttttt de prettier</li> <li>maais um teste </li>
@@ -119,5 +119,5 @@ export default function Home() {
         </footer>
       </div>
     </>
-  );
+  )
 }

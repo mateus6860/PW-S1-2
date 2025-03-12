@@ -23,7 +23,7 @@ jobs:
         run: npm install
 
       - name: Run Prettier
-        run: npm run format
+        run: npm run prettier
 
       - name: Custom Output
         run: echo "Pipeline executada por Mateus"
